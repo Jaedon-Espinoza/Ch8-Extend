@@ -1,0 +1,54 @@
+/* Jaedon Espinoza, 11/14/2024 */
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+
+body {
+    background-color: #ffe5dc;
+}
+
+/* Style rules for table */
+
+table, table caption {
+    font-family: sans-serif;
+}
+
+table caption {
+    font-weight: bold;
+}
+
+th {
+    background-color: #792101;
+    text-align: center;
+    color: white;
+}
+
+td {
+    border:solid #a22c02;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+table {
+    border: 4px solid #fd4d0c;
+    box-shadow: 0 4px 8px #792101;
+    margin: auto;
+
+}
+
+td tr:nth-child(odd) {
+    background-color: #fe9772;
+}
+
+/* Style rule for footer */
+
+footer {
+    margin: auto;
+    text-align: center;
+}
